@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizium</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex">
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="quiz-head">
+                <h1 class="quiz-title">Quizium</h1>
+                <div class="quiz-score flex">
+                    <span id="correct-score">0</span>/<span id="total-question">10</span>
+
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question">
+                    <!-- What is the full form of HTTP? <br>
+                    <span class="category">Anime</span> -->
+                </h2>
+                <ul class="quiz-options">
+                    <!-- <li>Hyper Text Transfer Protocol</li>
+                    <li>Hyper Text Transmission Protocol</li>
+                    <li>Hyper Text Transfer Program</li>
+                    <li>Hyper Text Transmission Program</li> -->
+                </ul>
+                <div id="result">
+
+                </div>
+            <div class="quiz-footer">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
